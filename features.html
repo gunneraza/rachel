@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <title>Pharma</title>
+    <meta charset="utf-8">
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+    <link rel="stylesheet" href="css/shop.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/vendor/html5shiv.min.js"></script>
+    <script src="js/vendor/respond.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<!--[if lt IE 9]>
+<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a
+        href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.
+</div>
+<![endif]-->
+<div class="preloader">
+    <div class="preloader_image"></div>
+</div>
+<!-- search modal -->
+<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		<span aria-hidden="true">
+			<i class="rt-icon2-cross2"></i>
+		</span>
+    </button>
+    <div class="widget widget_search">
+        <form method="get" class="searchform search-form form-inline" action="./">
+            <div class="form-group bottommargin_0"><input type="text" value="" name="search" class="form-control"
+                                                          placeholder="Search keyword" id="modal-search-input"></div>
+            <button type="submit" class="theme_button">Search</button>
+        </form>
+    </div>
+</div>
+<!-- Unyson messages modal -->
+<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+    <div class="fw-messages-wrap ls with_padding">
+        <!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+        <!--
+    <ul class="list-unstyled">
+        <li>Message To User</li>
+    </ul>
+    -->
+    </div>
+</div>
+<!-- eof .modal -->
+<!-- wrappers for visual page editor and boxed version of template -->
+<div id="canvas">
+    <div id="box_wrapper">
+        <!-- template sections -->
+        <section
+                class="page_topline cs main_color2 table_section table_section_sm section_padding_top_5 section_padding_bottom_5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 text-center text-sm-left">
+                        <div><i class="fa fa-clock-o rightpadding_5" aria-hidden="true"></i>Часы работы: Пн - Пт 9.00 –
+                            18.00
+                        </div>
+                    </div>
+                    <div class="col-sm-4 text-center text-sm-right greylinks"><span class="rightpadding_10">Следите за нами:</span>
+                        <a class="social-icon color-icon soc-telegram" target="_blank" href="http://t.me/Tiratechno"
+                           title="Facebook"></a></div>
+                </div>
+            </div>
+        </section>
+        <section
+                class="page_toplogo table_section table_section_md ls section_padding_top_25 section_padding_bottom_25">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 text-center text-md-left"><a href="./" class="logo top_logo">
+                        <img src="images/logo.png">
+                    </a></div>
+                    <div class="col-md-9 text-center text-md-right">
+                        <div class="inline-teasers-wrap">
+                            <div class="teaser small-teaser media">
+                                <div class="media-left media-middle">
+                                    <div class="teaser_icon size_small border_icon highlight2 rounded"><i
+                                            class="rt-icon2-phone"></i></div>
+                                </div>
+                                <div class="media-body media-middle">
+                                    <h5 style="margin: 4px"><a href="tel:+998909032857">+998 90 903-28-57</a></h5>
+                                    <h5 style="margin: 4px"><a href="tel:+998935071888">+998 93 507-18-88</a></h5>
+                                </div>
+                            </div>
+                            <div class="teaser small-teaser media">
+                                <div class="media-left media-middle">
+                                    <div class="teaser_icon size_small border_icon highlight2 rounded"><i
+                                            class="rt-icon2-map-pin"></i></div>
+                                </div>
+                                <div class="media-body media-middle">
+                                    <h5 style="margin: 0px">г.Ташкент,М-Улугбек.р-н <br>ул .Бузбозор, проезд7, д-21</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <header class="page_header header_color toggler_left">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 display_table">
+                        <div class="header_mainmenu display_table_cell">
+                            <!-- main nav start -->
+                            <nav class="mainmenu_wrapper">
+                                <ul class="mainmenu nav sf-menu">
+                                    <li><a href="index.html">Главная</a></li>
+                                    <li class="active"><a href="features.html">Наши услуги</a></li>
+                                    <li><a href="gallery.html">Фотогалерея</a></li>
+                                    <li><a href="#">Партнеры</a></li>
+                                    <li><a href="about.html">О компании</a></li>
+                                    <li><a href="#footer">Контакты</a></li>
+                                </ul>
+                            </nav>
+                            <!-- eof main nav -->
+                            <!-- header toggler --><span class="toggle_menu"><span></span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="ls section_padding_top_150 section_padding_bottom_130">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="section_header">Наши услуги:</h2>
+                        <p>Ремонт электроники промышленного оборудования в Ташкенте.
+                            Электронщики. Устранение проблем с электроникой промышленного 
+                            оборудования</p>
+                        <p>Ремонт и восстановление электроники промышленного оборудования (метало 
+                            обрабатывающее, полиграфическое, деревообработка, пищевое, 
+                            оборудование ЧПУ и т.д.)</p>
+                        <p>Ремонт и полное восстановление технических параметров оборудования до 
+                            “паспортного стандарта”. Электромонтаж и пуско-наладка 
+                            производственных цехов (Китай, Германия, Италия, Тайвань, Россия).</p>
+                        <p>Подключение удаленного доступа для обновления программного обеспечения 
+                            и ремонта оборудования заводом-производителем.
+                            Обследование, согласование технического задания, объемов работ и 
+                            устанавливаемых комплектующих. Установка современных приборов 
+                            контроля: (датчики давления, температурный режим, контроль фаз и их 
+                            дифферента, энкодеры и т.д.)
+                        </p>
+						<p>
+							- замена релейных схем, перевод на контроллер и наоборот <br>
+							- настройка частотных регуляторов, сервоприводов; <br>
+							- программирование ПЛК, панелей оператора; <br>
+							- ремонт печатных плат; <br>
+							-разработка проектной документации и программного обеспечения. <br>
+							-замена устаревшей системы ЧПУ. <br>
+							-замена главного привода и приводов подач вместе с электродвигателями. <br>
+							-замена пуско-регулирующей аппаратуры и датчиков обратной связи. <br>
+							-пуско-наладка и сдача станка в эксплуатацию. <br>
+							- модернизация электрооборудования металлообрабатывающих станков; <br>
+							-настройка сервоприводов, частотных преобразователей, блоков  <br>
+							управления шаговых двигателей <br>
+							-выявление причин частого выхода из строя оборудования <br>
+							-ремонт контроллеров <br>
+							-снятие защиты паролем в оборудовании Delta <br>
+							-дублирование программ с контроллеров и панелей оператора <br>
+							-установка защиты от сбоев в электропитании <br>
+							-установка защиты на основные платы управления оборудования (PLC,  <br>
+							панели оператора, исполнительные модули) <br>
+						</p>
+                        <p>Мы выполняем работы как электроники так и программной начинки. 
+                            Программирование частотных преобразователей на необходимый режим 
+                            работы двигателей, подключение функций энергосбережения.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer"
+                class="page_footer ds color section_padding_top_100 section_padding_bottom_65 table_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="widget widget_text"><a href="./" class="logo vertical_logo bottommargin_20">
+                            <img src="images/logo-light.png" alt="">
+                        </a>
+                            <p>инжиниринговая компания, основана в 2006 году группой специалистов, имевших цель создать
+                                современное динамичное предприятие</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="widget widget_text topmargin_25">
+                            <h4 class="widget-title">Связаться с нами</h4>
+                            <div class="media">
+                                <div class="media-left rightpadding_10"><i class="fa fa-pencil highlight"
+                                                                           aria-hidden="true"></i></div>
+                                <div class="media-body highlight2links"><a href="mailto:tiratechno@gmail.com">tiratechno@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left rightpadding_10"><i class="fa fa-pencil highlight"
+                                                                           aria-hidden="true"></i></div>
+                                <div class="media-body highlight2links"><a href="mailto:kenotrading@mail.ru">kenotrading@mail.ru</a>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left rightpadding_10"><i class="fa fa-paper-plane highlight"
+                                                                           aria-hidden="true"></i></div>
+                                <div class="media-body highlight2links"><a href="http://t.me/Tiratechno">Наш телеграм
+                                    чат</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="widget widget_text topmargin_25">
+                            <h4 class="widget-title">Контакты</h4>
+                            <div class="media">
+                                <div class="media-left rightpadding_10"><i class="fa fa-phone highlight"
+                                                                           aria-hidden="true"></i></div>
+                                <div class="media-body highlight2links"><a href="mailto:+998909032857">+998
+                                    90 903-28-57</a></div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left rightpadding_10"><i class="fa fa-phone highlight"
+                                                                           aria-hidden="true"></i></div>
+                                <div class="media-body highlight2links"><a href="mailto:+998935071888">+998
+                                    93 507-18-88</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="widget widget_text topmargin_25">
+                            <h4 class="widget-title">Адрес</h4>
+                            <div class="media">
+                                <div class="media-left rightpadding_10"><i class="fa fa-map highlight"
+                                                                           aria-hidden="true"></i></div>
+                                <div class="media-body highlight2links">г.Ташкент,М-Улугбек.р-н, ул .Бузбозор, проезд7,
+                                    д-21
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <section class="ds color darker page_copyright section_padding_15">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <p class="fontsize_12">&copy; 2020. Все права защищены.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- eof #box_wrapper -->
+</div>
+<!-- eof #canvas -->
+<script src="js/compressed.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
