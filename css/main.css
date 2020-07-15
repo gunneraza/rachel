@@ -4851,6 +4851,8 @@ header [class*="col-"],
 	margin-top: -20px;
 	margin-bottom: 30px;
 	max-width: 780px;
+	font-weight: 400;
+	color: #000;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -14881,4 +14883,54 @@ a.color-icon.border-icon:hover {
 	.engineer {
 		display: none;
 	}
+}
+
+.section-page p {
+	color: #000;
+	font-weight: 400;
+}
+
+.section-page ul {
+	color: #000;
+	font-weight: 400;
+}
+
+.section-page strong {
+	color: #000;
+	font-weight: 400;
+}
+
+.section-page__dark p {
+	color: #fff;
+}
+
+.section-page__dark ul {
+	color: #fff;
+}
+
+.section-page__dark strong {
+	color: #fff;
+}
+
+.partner-feature {
+	list-style: none;
+	color: #fff;
+}
+
+.partner-feature__item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.partner-feature__item svg {
+	width: 80px;
+	height: 80px;
+	fill: #fff;
+	margin-right: 20px;
+}
+
+.partner-feature__item span {
+	color: #fff;
+	font-size: 18px;
 }
