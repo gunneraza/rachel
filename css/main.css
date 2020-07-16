@@ -7357,6 +7357,12 @@ body.boxed {
 	padding: 0 15px;
 }
 
+@media(max-width: 992px) {
+	.header_mainmenu {
+		height: 50px;
+	}
+}
+
 .header_right_buttons {
 	white-space: nowrap;
 	padding: 0 15px;
@@ -10831,6 +10837,7 @@ section .intro_section .slide_description_wrapper {
 		position: static;
 	}
 }
+
 
 /*
 **Subpages
@@ -14933,4 +14940,9 @@ a.color-icon.border-icon:hover {
 .partner-feature__item span {
 	color: #fff;
 	font-size: 18px;
+}
+
+.mainmenu_wrapper ul {
+	display: flex;
+	justify-content: space-between;
 }
