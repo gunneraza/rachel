@@ -14946,3 +14946,24 @@ a.color-icon.border-icon:hover {
 	display: flex;
 	justify-content: space-between;
 }
+
+@media (max-width: 992px) {
+	.mainmenu_wrapper ul {
+		display: block;
+	}
+}
+
+.about-item {
+	padding: 10px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (min-width: 1600px) {
+	.about-item {
+		padding: 14px !important;
+	}
+}
