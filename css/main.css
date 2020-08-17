@@ -9952,6 +9952,7 @@ section .intro_section .slide_description_wrapper {
 .intro_section .slides > li {
 	position: relative;
 	overflow: hidden;
+	height: 600px;
 }
 
 .intro_section.ds img {
