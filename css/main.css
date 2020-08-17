@@ -14967,3 +14967,78 @@ a.color-icon.border-icon:hover {
 		padding: 14px !important;
 	}
 }
+
+.equipment {
+	margin-bottom: 40px;
+}
+
+.equipment__title {
+	font-size: 24px;
+	font-weight: 500;
+	color: #000;
+	margin-bottom: 10px;
+}
+.equipment-info__title {
+	font-weight: 500;
+	color: #000;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.equipment-info__table div {
+	width: 500px;
+	font-weight: 500;
+}
+
+.equipment-info__table {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.equipment__img {
+	width: 100%;
+	height: 500px;
+	background-size: contain;
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+
+.gallery-thumbs {
+	margin-top: 20px;
+	box-sizing: border-box;
+	padding: 10px 0;
+}
+
+.gallery-thumbs .swiper-slide {
+	width: 100px !important;
+	height: 100px;
+	opacity: 0.4;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.gallery-thumbs2 {
+	margin-top: 20px;
+	box-sizing: border-box;
+	padding: 10px 0;
+}
+
+.gallery-thumbs2 .swiper-slide {
+	width: 100px !important;
+	height: 100px;
+	opacity: 0.4;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.gallery-thumbs .swiper-slide-thumb-active {
+	opacity: 1;
+}
+
+.gallery-thumbs2 .swiper-slide-thumb-active {
+	opacity: 1;
+}
