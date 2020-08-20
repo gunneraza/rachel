@@ -9952,7 +9952,6 @@ section .intro_section .slide_description_wrapper {
 .intro_section .slides > li {
 	position: relative;
 	overflow: hidden;
-	height: 600px;
 }
 
 .intro_section.ds img {
@@ -14970,20 +14969,22 @@ a.color-icon.border-icon:hover {
 }
 
 .equipment {
+	color: #fff;
 	margin-bottom: 40px;
 }
 
 .equipment__title {
 	font-size: 24px;
 	font-weight: 500;
-	color: #000;
 	margin-bottom: 10px;
+	color: #fff;
 }
 .equipment-info__title {
 	font-weight: 500;
-	color: #000;
+	color: #fff;
 	font-size: 20px;
 	margin-bottom: 10px;
+
 }
 
 .equipment-info__table div {
@@ -15042,4 +15043,81 @@ a.color-icon.border-icon:hover {
 
 .gallery-thumbs2 .swiper-slide-thumb-active {
 	opacity: 1;
+}
+
+.page_toplogo .container {
+	padding: 4px;
+}
+
+@media (max-width: 1200px) {
+	.page_toplogo img {
+		width: 120px;
+	}
+
+	.page_toplogo .teaser_icon {
+		width: 40px;
+		height: 40px;
+	}
+
+	.page_toplogo .rt-icon2-phone {
+		margin-top: -5px !important;
+	}
+
+	.page_toplogo .rt-icon2-map-pin {
+		margin-top: -5px !important;
+	}
+
+	.page_toplogo h5 {
+		font-size: 16px;
+	}
+
+	.mainmenu a {
+		padding: 16px !important;
+	}
+
+	#about .container {
+		padding-bottom: 30px;
+	}
+
+	#features .container {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+.project {
+	border: 2px solid #eee;
+	border-radius: 6px;
+	display: flex;
+	flex-direction: row;
+	transition: 300ms ease;
+	overflow: hidden;
+
+}
+
+.project:hover {
+	box-shadow: 2px 3px 14px rgba(0,0,0,0.3);
+}
+
+.project__img {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 30%;
+	height: 250px;
+}
+
+.project__info {
+	padding: 14px;
+}
+
+.project__title {
+	font-size: 20px;
+	font-weight: 500;
+	color: #000;
+	margin-bottom: 20px;
+}
+
+.project__description {
+	color: #777;
 }
