@@ -15049,9 +15049,9 @@ a.color-icon.border-icon:hover {
 	padding: 4px;
 }
 
-@media (max-width: 1200px) {
+
 	.page_toplogo img {
-		width: 120px;
+		width: 140px;
 	}
 
 	.page_toplogo .teaser_icon {
@@ -15083,7 +15083,7 @@ a.color-icon.border-icon:hover {
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
-}
+
 
 .project {
 	border: 2px solid #eee;
@@ -15120,4 +15120,8 @@ a.color-icon.border-icon:hover {
 
 .project__description {
 	color: #777;
+}
+
+.slides img {
+	height: 600px;
 }
