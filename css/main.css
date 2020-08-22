@@ -15086,17 +15086,16 @@ a.color-icon.border-icon:hover {
 
 
 .project {
-	border: 2px solid #eee;
 	border-radius: 6px;
 	display: flex;
 	flex-direction: row;
 	transition: 300ms ease;
 	overflow: hidden;
-
+	box-shadow: 2px 2px 4px rgba(255,255,255,0.1);
 }
 
 .project:hover {
-	box-shadow: 2px 3px 14px rgba(0,0,0,0.3);
+	box-shadow: 2px 3px 14px rgba(255,255,255,0.4);
 }
 
 .project__img {
@@ -15114,12 +15113,12 @@ a.color-icon.border-icon:hover {
 .project__title {
 	font-size: 20px;
 	font-weight: 500;
-	color: #000;
 	margin-bottom: 20px;
+	color: #fff;
 }
 
 .project__description {
-	color: #777;
+	color: #fff;
 }
 
 .slides img {
