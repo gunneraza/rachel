@@ -15046,7 +15046,7 @@ a.color-icon.border-icon:hover {
 }
 
 .page_toplogo .container {
-	padding: 4px;
+	padding: 2px;
 }
 
 
@@ -15055,24 +15055,24 @@ a.color-icon.border-icon:hover {
 	}
 
 	.page_toplogo .teaser_icon {
-		width: 40px;
-		height: 40px;
+		width: 36px;
+		height: 36px;
 	}
 
 	.page_toplogo .rt-icon2-phone {
-		margin-top: -5px !important;
+		margin-top: -8px !important;
 	}
 
 	.page_toplogo .rt-icon2-map-pin {
-		margin-top: -5px !important;
+		margin-top: -8px !important;
 	}
 
 	.page_toplogo h5 {
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	.mainmenu a {
-		padding: 16px !important;
+		padding: 10px !important;
 	}
 
 	#about .container {
